@@ -50,7 +50,7 @@ y = 51
 if x == 100 and not y == 50:
     print(x * y)
 if 'world' in 'hello world':
-        print('hello wold')
+    print('hello wold')
 # всегда до первого выполненного условия
 x = 100
 if x > 100:
@@ -58,7 +58,7 @@ if x > 100:
 elif x < 200:
     print('x < 200')
 elif x == 200:
-        print('x = 150')
+    print('x = 150')
 #
 x = 100
 if x > 100:
