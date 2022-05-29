@@ -46,7 +46,40 @@ while True:
             print(f'You were born {id_code[5:7]}.{id_code[3:5]}.{bcent}{id_code[1:3]}')
 
         elif user_choice == '3':
-            pass
+            if int(id_code[7:10]) in range(0, 10):
+                print('Your region of birth is Kuressaare')
+            elif int(id_code[7:10]) in range(11, 20):
+                print('Your region of birth is Tartu')
+            elif int(id_code[7:10]) in range(21, 151):
+                print('Your region of birth is Tallinn')
+            elif int(id_code[7:10]) in range(151, 161):
+                print('Your region of birth is Keila')
+            elif int(id_code[7:10]) in range(161, 221):
+                print('Your region of birth is Kardla')
+            elif int(id_code[7:10]) in range(221, 271):
+                print('Your region of birth is Kohtla-Jarve, endine Johvi')
+            elif int(id_code[7:10]) in range(271, 371):
+                print('Your region of birth is Tartu')
+            elif int(id_code[7:10]) in range(371, 421):
+                print('Your region of birth is Narva')
+            elif int(id_code[7:10]) in range(421, 471):
+                print('Your region of birth is Parnu')
+            elif int(id_code[7:10]) in range(471, 491):
+                print('Your region of birth is Haapsalu')
+            elif int(id_code[7:10]) in range(491, 521):
+                print('Your region of birth is Paide')
+            elif int(id_code[7:10]) in range(521, 571):
+                print('Your region of birth is Rakvere, Tapa')
+            elif int(id_code[7:10]) in range(571, 601):
+                print('Your region of birth is Valga')
+            elif int(id_code[7:10]) in range(601, 651):
+                print('Your region of birth is Viljandi')
+            elif int(id_code[7:10]) in range(651, 701):
+                print('Your region of birth is Voru')
+            else:
+                print('Code is not correct!')
+                break
+
         elif user_choice == '4':
             pass
         elif user_choice == '5':
